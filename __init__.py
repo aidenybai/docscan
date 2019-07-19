@@ -7,8 +7,8 @@ try:
 except ImportError:
     from xml.etree.ElementTree import XML
 import zipfile,io, re
-name = "docuscan"
-class DocuScan():
+name = "docscan"
+class Docscan():
     '''
         Class that scans documents (pdf, doc and docx) and returns their strings,
         as well as can execute regular expressions.
